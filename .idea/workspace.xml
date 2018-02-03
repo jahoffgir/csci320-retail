@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77a96090-2452-4397-8452-7878ab7bb004" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/csci320retail/src/bin/h2-1.4.196.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csci320retail/src/main/java/PersonTable.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csci320retail/src/main/java/objects/Person.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csci320retail/src/main/resources/Grocery_Brands_Database.xlsx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csci320retail/src/main/resources/Grocery_UPC_Database.xlsx" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/csci320retail/pom.xml" afterPath="$PROJECT_DIR$/csci320retail/pom.xml" />
       <change beforePath="$PROJECT_DIR$/csci320retail/src/main/java/H2DemoMain.java" afterPath="$PROJECT_DIR$/csci320retail/src/main/java/H2DemoMain.java" />
+      <change beforePath="$PROJECT_DIR$/csci320retail/src/main/java/PersonTable.java" afterPath="$PROJECT_DIR$/csci320retail/src/main/java/PersonTable.java" />
+      <change beforePath="$PROJECT_DIR$/csci320retail/src/main/java/objects/Person.java" afterPath="$PROJECT_DIR$/csci320retail/src/main/java/objects/Person.java" />
     </list>
     <ignored path="$PROJECT_DIR$/csci320retail/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +32,8 @@
       <file leaf-file-name="H2DemoMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/csci320retail/src/main/java/H2DemoMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="80" column="8" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
+            <state relative-caret-position="260">
+              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="77" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,13 +136,6 @@
               <item name="csci320retail" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csci320-retail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csci320retail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csci320-retail" type="b2602c69:ProjectViewProjectNode" />
@@ -320,7 +311,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517683150431</updated>
-      <workItem from="1517683151704" duration="1349000" />
+      <workItem from="1517683151704" duration="2425000" />
     </task>
     <task id="LOCAL-00001" summary="demo h2 class added">
       <created>1517684479451</created>
@@ -329,15 +320,21 @@
       <option name="project" value="LOCAL" />
       <updated>1517684479451</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="demo h2 class added">
+      <created>1517684530119</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1517684530119</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1349000" />
+    <option name="totallyTimeSpent" value="2425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="24" width="1616" height="979" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -351,7 +348,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5203969" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -414,8 +411,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/csci320retail/src/main/java/H2DemoMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="80" column="8" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
+        <state relative-caret-position="260">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="77" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
