@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77a96090-2452-4397-8452-7878ab7bb004" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/csci320retail/src/main/resources/Grocery_Brands_Database.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csci320retail/src/main/resources/Grocery_UPC_Database.xlsx" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/csci320retail/src/main/java/H2DemoMain.java" afterPath="$PROJECT_DIR$/csci320retail/src/main/java/H2DemoMain.java" />
       <change beforePath="$PROJECT_DIR$/csci320retail/src/main/java/PersonTable.java" afterPath="$PROJECT_DIR$/csci320retail/src/main/java/PersonTable.java" />
@@ -311,7 +309,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517683150431</updated>
-      <workItem from="1517683151704" duration="2425000" />
+      <workItem from="1517683151704" duration="2475000" />
     </task>
     <task id="LOCAL-00001" summary="demo h2 class added">
       <created>1517684479451</created>
@@ -327,11 +325,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517684530119</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added datasets">
+      <created>1517685770375</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1517685770375</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2425000" />
+    <option name="totallyTimeSpent" value="2475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="24" width="1616" height="979" extended-state="0" />
@@ -372,7 +377,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="demo h2 class added" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo h2 class added" />
+    <MESSAGE value="added datasets" />
+    <option name="LAST_COMMIT_MESSAGE" value="added datasets" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
