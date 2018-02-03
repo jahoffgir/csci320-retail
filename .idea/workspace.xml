@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77a96090-2452-4397-8452-7878ab7bb004" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/csci320retail/src/main/resources/Grocery_Brands_Database.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csci320retail/src/main/resources/Grocery_UPC_Database.csv" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/csci320retail/src/main/java/H2DemoMain.java" afterPath="$PROJECT_DIR$/csci320retail/src/main/java/H2DemoMain.java" />
-      <change beforePath="$PROJECT_DIR$/csci320retail/src/main/java/PersonTable.java" afterPath="$PROJECT_DIR$/csci320retail/src/main/java/PersonTable.java" />
-      <change beforePath="$PROJECT_DIR$/csci320retail/src/main/java/objects/Person.java" afterPath="$PROJECT_DIR$/csci320retail/src/main/java/objects/Person.java" />
     </list>
     <ignored path="$PROJECT_DIR$/csci320retail/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,21 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csci320retail/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="H2DemoMain.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="H2DemoMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/csci320retail/src/main/java/H2DemoMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="77" selection-end-column="56" />
+            <state relative-caret-position="445">
+              <caret line="88" column="62" lean-forward="false" selection-start-line="88" selection-start-column="62" selection-end-line="88" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,15 +29,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonTable.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PersonTable.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/csci320retail/src/main/java/PersonTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="-143">
               <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding>
                 <element signature="e#1043#1051#0" expanded="true" />
-                <marker date="1517683534527" expanded="true" signature="1922:2112" ph="CREATE TABLE... IF" />
-                <marker date="1517683534527" expanded="true" signature="5910:5930" ph="SELECT * FRO... person" />
+                <marker date="1517685813040" expanded="true" signature="1922:2112" ph="CREATE TABLE... IF" />
+                <marker date="1517685813040" expanded="true" signature="5910:5930" ph="SELECT * FRO... person" />
               </folding>
             </state>
           </provider>
@@ -96,11 +86,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="44" />
-    <option name="y" value="24" />
-    <option name="width" value="1616" />
-    <option name="height" value="979" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1667" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -134,6 +123,13 @@
               <item name="csci320retail" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csci320-retail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csci320retail" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csci320-retail" type="b2602c69:ProjectViewProjectNode" />
@@ -309,7 +305,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517683150431</updated>
-      <workItem from="1517683151704" duration="2475000" />
+      <workItem from="1517683151704" duration="2990000" />
     </task>
     <task id="LOCAL-00001" summary="demo h2 class added">
       <created>1517684479451</created>
@@ -332,14 +328,21 @@
       <option name="project" value="LOCAL" />
       <updated>1517685770375</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added datasets">
+      <created>1517685806208</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1517685806208</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2475000" />
+    <option name="totallyTimeSpent" value="2990000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="24" width="1616" height="979" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="979" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -353,7 +356,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5203969" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24047619" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -395,18 +398,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/csci320retail/src/main/java/PersonTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="e#1043#1051#0" expanded="true" />
-            <marker date="1517683534527" expanded="true" signature="1922:2112" ph="CREATE TABLE... IF" />
-            <marker date="1517683534527" expanded="true" signature="5910:5930" ph="SELECT * FRO... person" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csci320retail/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -417,10 +408,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/csci320retail/src/main/java/H2DemoMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="77" selection-end-column="56" />
+        <state relative-caret-position="445">
+          <caret line="88" column="62" lean-forward="false" selection-start-line="88" selection-start-column="62" selection-end-line="88" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csci320retail/src/main/java/PersonTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="e#1043#1051#0" expanded="true" />
+            <marker date="1517685813040" expanded="true" signature="1922:2112" ph="CREATE TABLE... IF" />
+            <marker date="1517685813040" expanded="true" signature="5910:5930" ph="SELECT * FRO... person" />
           </folding>
         </state>
       </provider>
@@ -482,7 +485,6 @@
             <option name="proportions">
               <list>
                 <option value="0.16781609" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

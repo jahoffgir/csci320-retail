@@ -70,7 +70,7 @@ public class H2DemoMain {
 		H2DemoMain demo = new H2DemoMain();
 		
 		//Hard drive location of the database
-		String location = "~/h2demo/h2demo";
+		String location = "~/h2/retail";
 		String user = "scj";
 		String password = "password";
 		
@@ -86,7 +86,7 @@ public class H2DemoMain {
 			PersonTable.createPersonTable(demo.getConnection());
 			PersonTable.populatePersonTableFromCSV(
 					demo.getConnection(),
-					"C:/Users/scj/h2demoData/people.csv");
+					"../resources/Grocery_Brands_DAtabase.xlsx");
 			
 			/**
 			 * Just displays the table
